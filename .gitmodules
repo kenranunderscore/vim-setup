@@ -4,3 +4,9 @@
 [submodule "bundle/apprentice"]
 	path = bundle/apprentice
 	url = https://github.com/romainl/apprentice.git
+[submodule "bundle/vim-kolor"]
+	path = bundle/vim-kolor
+	url = https://github.com/zeis/vim-kolor
+[submodule "bundle/molokai"]
+	path = bundle/molokai
+	url = https://github.com/tomasr/molokai.git
