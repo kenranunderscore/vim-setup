@@ -1,3 +1,6 @@
 [submodule "bundle/auto-pairs"]
 	path = bundle/auto-pairs
 	url = https://github.com/jiangmiao/auto-pairs.git
+[submodule "bundle/apprentice"]
+	path = bundle/apprentice
+	url = https://github.com/romainl/apprentice.git
