@@ -2,6 +2,13 @@
 
 set nocompatible
 
+" Some gVim specific settings
+
+if has("gui_running")
+    set langmenu=en_US.UTF-8
+    set lines=999 columns=999
+endif
+
 " Pathogen config
 
 filetype off
