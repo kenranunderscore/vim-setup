@@ -12,7 +12,7 @@ endif
 " Pathogen config
 
 filetype off
-execute pathogen#infect()
+execute pathogen#infect() 
 
 " Custom config
 
@@ -58,3 +58,7 @@ inoremap <up> <nop>
 inoremap <down> <nop>
 inoremap <left> <nop>
 inoremap <right> <nop>
+
+" YouCompleteMe options
+
+let g:ycm_confirm_extra_conf=0
