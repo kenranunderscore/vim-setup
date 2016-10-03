@@ -23,7 +23,7 @@ set t_8b=[48;2;%lu;%lu;%lum
 filetype plugin indent on
 syntax on
 
-colorscheme apprentice
+colorscheme gruvbox
 
 set encoding=utf-8
 set nowrap
