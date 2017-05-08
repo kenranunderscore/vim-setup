@@ -1,24 +1,3 @@
-[submodule "bundle/auto-pairs"]
-	path = bundle/auto-pairs
-	url = https://github.com/jiangmiao/auto-pairs.git
-[submodule "bundle/apprentice"]
-	path = bundle/apprentice
-	url = https://github.com/romainl/apprentice.git
-[submodule "bundle/vim-kolor"]
-	path = bundle/vim-kolor
-	url = https://github.com/zeis/vim-kolor
-[submodule "bundle/molokai"]
-	path = bundle/molokai
-	url = https://github.com/tomasr/molokai.git
-[submodule "bundle/deep-space"]
-	path = bundle/deep-space
-	url = https://github.com/tyrannicaltoucan/vim-deep-space
-[submodule "bundle/gruvbox"]
-	path = bundle/gruvbox
-	url = https://github.com/morhetz/gruvbox
 [submodule "bundle/YouCompleteMe"]
 	path = bundle/YouCompleteMe
 	url = https://github.com/valloric/youcompleteme.git
-[submodule "bundle/Conque-GDB"]
-	path = bundle/Conque-GDB
-	url = https://github.com/vim-scripts/conque-gdb

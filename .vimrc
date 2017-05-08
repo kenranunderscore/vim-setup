@@ -9,10 +9,19 @@ if has("gui_running")
     set lines=999 columns=999
 endif
 
-" Pathogen config
+" vundle config
 
 filetype off
-execute pathogen#infect() 
+set runtimepath+=~/.vim/bundle/vundle
+call vundle#rc()
+
+Bundle 'gmarik/vundle'
+Bundle 'vim-scripts/conque-gdb'
+Bundle 'romainl/apprentice'
+Bundle 'jiangmiao/auto-pairs'
+Bundle 'tyrannicaltoucan/vim-deep-space'
+Bundle 'morhetz/gruvbox'
+Bundle 'zeis/vim-kolor'
 
 " Custom config
 
