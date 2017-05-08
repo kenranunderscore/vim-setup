@@ -23,6 +23,7 @@ Plugin 'jiangmiao/auto-pairs'
 Plugin 'tyrannicaltoucan/vim-deep-space'
 Plugin 'morhetz/gruvbox'
 Plugin 'zeis/vim-kolor'
+Plugin 'Valloric/YouCompleteMe'
 
 call vundle#end()
 
@@ -37,6 +38,7 @@ set t_8b=[48;2;%lu;%lu;%lum
 syntax on
 
 colorscheme gruvbox
+set background=dark
 
 set encoding=utf-8
 set nowrap
