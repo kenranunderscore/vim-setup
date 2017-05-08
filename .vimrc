@@ -12,16 +12,21 @@ endif
 " vundle config
 
 filetype off
-set runtimepath+=~/.vim/bundle/vundle
-call vundle#rc()
+set runtimepath+=~/.vim/bundle/Vundle.vim
+call vundle#begin()
 
-Bundle 'gmarik/vundle'
-Bundle 'vim-scripts/conque-gdb'
-Bundle 'romainl/apprentice'
-Bundle 'jiangmiao/auto-pairs'
-Bundle 'tyrannicaltoucan/vim-deep-space'
-Bundle 'morhetz/gruvbox'
-Bundle 'zeis/vim-kolor'
+Plugin 'VundleVim/Vundle.vim'
+
+Plugin 'vim-scripts/conque-gdb'
+Plugin 'romainl/apprentice'
+Plugin 'jiangmiao/auto-pairs'
+Plugin 'tyrannicaltoucan/vim-deep-space'
+Plugin 'morhetz/gruvbox'
+Plugin 'zeis/vim-kolor'
+
+call vundle#end()
+
+filetype plugin indent on
 
 " Custom config
 
@@ -29,7 +34,6 @@ set termguicolors
 set t_8f=[38;2;%lu;%lu;%lum
 set t_8b=[48;2;%lu;%lu;%lum
 
-filetype plugin indent on
 syntax on
 
 colorscheme gruvbox
