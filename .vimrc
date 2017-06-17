@@ -7,6 +7,9 @@ set nocompatible
 if has("gui_running")
     set langmenu=en_US.UTF-8
     set lines=999 columns=999
+    set guioptions-=m
+    set guioptions-=T
+    set guioptions-=r
 endif
 
 " vundle config
