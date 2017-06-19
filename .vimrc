@@ -27,6 +27,7 @@ Plugin 'tyrannicaltoucan/vim-deep-space'
 Plugin 'morhetz/gruvbox'
 Plugin 'zeis/vim-kolor'
 Plugin 'Valloric/YouCompleteMe'
+Plugin 'kien/ctrlp.vim'
 
 call vundle#end()
 
@@ -85,3 +86,7 @@ inoremap <right> <nop>
 " YouCompleteMe options
 
 let g:ycm_confirm_extra_conf=0
+
+" DCSS level design syntax highlighting
+
+au BufRead,BufNewFile *.des set syntax=levdes
