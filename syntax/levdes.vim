@@ -1,0 +1,1 @@
+/home/jo/roguelikes/crawl/crawl-ref/source/dat/vim/syntax/levdes.vim

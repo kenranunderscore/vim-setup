@@ -12,7 +12,7 @@ if has("gui_running")
     set guioptions-=r
 endif
 
-" vundle config
+" Vundle config
 
 filetype off
 set runtimepath+=~/.vim/bundle/Vundle.vim
@@ -45,6 +45,8 @@ if &term == 'xterm' || &term == 'xterm-256color' || &term == 'rxvt-unicode-256co
 endif
 
 syntax on
+
+set colorcolumn=80
 
 colorscheme gruvbox
 set background=dark
