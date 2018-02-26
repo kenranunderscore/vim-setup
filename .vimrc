@@ -10,6 +10,7 @@ if has("gui_running")
     set guioptions-=m
     set guioptions-=T
     set guioptions-=r
+    set guifont=Fantasque\ Sans\ Mono\ 12
 endif
 
 " Vundle config
@@ -28,6 +29,7 @@ Plugin 'morhetz/gruvbox'
 Plugin 'zeis/vim-kolor'
 Plugin 'Valloric/YouCompleteMe'
 Plugin 'kien/ctrlp.vim'
+Plugin 'fatih/vim-go'
 
 call vundle#end()
 
