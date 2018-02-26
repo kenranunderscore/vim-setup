@@ -27,7 +27,6 @@ Plugin 'jiangmiao/auto-pairs'
 Plugin 'tyrannicaltoucan/vim-deep-space'
 Plugin 'morhetz/gruvbox'
 Plugin 'zeis/vim-kolor'
-Plugin 'Valloric/YouCompleteMe'
 Plugin 'kien/ctrlp.vim'
 Plugin 'fatih/vim-go'
 
@@ -86,11 +85,6 @@ inoremap <up> <nop>
 inoremap <down> <nop>
 inoremap <left> <nop>
 inoremap <right> <nop>
-
-" YouCompleteMe options
-
-let g:ycm_confirm_extra_conf=0
-let g:ycm_global_ycm_extra_conf='~/.vim/.ycm_global_extra_conf.py'
 
 " DCSS level design syntax highlighting
 
