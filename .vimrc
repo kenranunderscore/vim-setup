@@ -26,6 +26,7 @@ Plug 'tyrannicaltoucan/vim-deep-space'
 Plug 'morhetz/gruvbox'
 Plug 'zeis/vim-kolor'
 Plug 'kien/ctrlp.vim'
+Plug 'valloric/youcompleteme'
 Plug 'fatih/vim-go'
 
 call plug#end()
