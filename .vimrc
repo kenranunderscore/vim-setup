@@ -16,23 +16,19 @@ endif
 " Vundle config
 
 filetype off
-set runtimepath+=~/.vim/bundle/Vundle.vim
-call vundle#begin()
 
-Plugin 'VundleVim/Vundle.vim'
+call plug#begin('~/.vim/plugged')
 
-Plugin 'vim-scripts/conque-gdb'
-Plugin 'romainl/apprentice'
-Plugin 'jiangmiao/auto-pairs'
-Plugin 'tyrannicaltoucan/vim-deep-space'
-Plugin 'morhetz/gruvbox'
-Plugin 'zeis/vim-kolor'
-Plugin 'kien/ctrlp.vim'
-Plugin 'fatih/vim-go'
+Plug 'vim-scripts/conque-gdb'
+Plug 'romainl/apprentice'
+Plug 'jiangmiao/auto-pairs'
+Plug 'tyrannicaltoucan/vim-deep-space'
+Plug 'morhetz/gruvbox'
+Plug 'zeis/vim-kolor'
+Plug 'kien/ctrlp.vim'
+Plug 'fatih/vim-go'
 
-call vundle#end()
-
-filetype plugin indent on
+call plug#end()
 
 " Custom config
 
