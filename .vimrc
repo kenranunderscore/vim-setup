@@ -28,6 +28,7 @@ Plug 'zeis/vim-kolor'
 Plug 'kien/ctrlp.vim'
 Plug 'valloric/youcompleteme'
 Plug 'fatih/vim-go'
+Plug 'rust-lang/rust.vim'
 
 call plug#end()
 
