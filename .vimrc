@@ -10,7 +10,7 @@ if has("gui_running")
     set guioptions-=m
     set guioptions-=T
     set guioptions-=r
-    set guifont=Fantasque\ Sans\ Mono\ 12
+    set guifont=Fira\ Mono\ 11
 endif
 
 " Vundle config
