@@ -38,11 +38,6 @@ set termguicolors
 set t_8f=[38;2;%lu;%lu;%lum
 set t_8b=[48;2;%lu;%lu;%lum
 
-if &term == 'xterm' || &term == 'xterm-256color' || &term == 'rxvt-unicode-256color'
-    let &t_SI = "\<Esc>[5 q"
-    let &t_EI = "\<Esc>[1 q"
-endif
-
 syntax on
 
 set colorcolumn=80
