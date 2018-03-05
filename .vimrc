@@ -10,6 +10,7 @@ if has("gui_running")
     set guioptions-=m
     set guioptions-=T
     set guioptions-=r
+    set guicursor+=i-ci:block-Cursor/lCursor
     set guifont=Fira\ Mono\ 11
 endif
 
@@ -24,7 +25,6 @@ Plug 'romainl/apprentice'
 Plug 'jiangmiao/auto-pairs'
 Plug 'tyrannicaltoucan/vim-deep-space'
 Plug 'morhetz/gruvbox'
-Plug 'zeis/vim-kolor'
 Plug 'kien/ctrlp.vim'
 Plug 'valloric/youcompleteme'
 Plug 'fatih/vim-go'
