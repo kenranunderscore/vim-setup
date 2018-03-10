@@ -21,14 +21,17 @@ filetype off
 call plug#begin('~/.vim/plugged')
 
 Plug 'vim-scripts/conque-gdb'
-Plug 'romainl/apprentice'
 Plug 'jiangmiao/auto-pairs'
-Plug 'tyrannicaltoucan/vim-deep-space'
 Plug 'morhetz/gruvbox'
 Plug 'kien/ctrlp.vim'
 Plug 'valloric/youcompleteme'
 Plug 'fatih/vim-go'
 Plug 'rust-lang/rust.vim'
+Plug 'lukerandall/haskellmode-vim'
+Plug 'eagletmt/ghcmod-vim'
+Plug 'scrooloose/syntastic'
+Plug 'ujihisa/neco-ghc'
+Plug 'shougo/vimproc', {'do' : 'make'}
 
 call plug#end()
 
@@ -82,3 +85,7 @@ inoremap <right> <nop>
 " DCSS level design syntax highlighting
 
 au BufRead,BufNewFile *.des set syntax=levdes
+
+" Haskell
+
+let g:haddock_browser="google-chrome-stable"
