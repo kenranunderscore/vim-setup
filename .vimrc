@@ -11,7 +11,7 @@ if has("gui_running")
     set guioptions-=T
     set guioptions-=r
     set guicursor+=i-ci:block-Cursor/lCursor
-    set guifont=Fira\ Mono\ 11
+    set guifont=Fira\ Code\ 11
 endif
 
 " Vundle config
@@ -20,6 +20,7 @@ filetype off
 
 call plug#begin('~/.vim/plugged')
 
+Plug 'scrooloose/nerdtree'
 Plug 'vim-scripts/conque-gdb'
 Plug 'jiangmiao/auto-pairs'
 Plug 'morhetz/gruvbox'
